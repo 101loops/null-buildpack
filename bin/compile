@@ -3,4 +3,5 @@
 
 echo "-----> Nothing to do."
 
-chmod +x *
+BUILD_DIR=$1
+chmod +x $BUILD_DIR/*
